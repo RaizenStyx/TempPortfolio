@@ -1,0 +1,93 @@
+[
+    {
+      "question": "What is my name?",
+      "answerOptions": [
+        { "answer": "Connor Zeed" },
+        { "answer": "Ronnoc Deer" },
+        { "answer": "Connor Reed", "isCorrect": true },
+        { "answer": "Connor Weed" }
+      ]
+    },
+    {
+      "question": "Who was my previous employer?",
+      "answerOptions": [
+        { "answer": "McDonald's" },
+        { "answer": "We Are Underground", "isCorrect": true },
+        { "answer": "Shopify Partners" },
+        { "answer": "MySelf" }
+      ]
+    },
+    {
+      "question": "What did I build this Portfolio with?",
+      "answerOptions": [
+        { "answer": "Angular" },
+        { "answer": "Next.js", "isCorrect": true },
+        { "answer": "React" },
+        { "answer": "Vue.js" }
+      ]
+    },
+    {
+      "question": "When did I start my journey of programming?",
+      "answerOptions": [
+        { "answer": "2015" },
+        { "answer": "2018" },
+        { "answer": "2021" },
+        { "answer": "2019", "isCorrect": true  }
+      ]
+    },
+    {
+        "question": "How many Shopify Stores have I worked on that are on here?",
+        "answerOptions": [
+          { "answer": "4" },
+          { "answer": "6" },
+          { "answer": "5", "isCorrect": true },
+          { "answer": "7" }
+        ]
+      },
+      {
+        "question": "How many different ways of contact methods do I have?",
+        "answerOptions": [
+          { "answer": "6", "isCorrect": true },
+          { "answer": "8" },
+          { "answer": "4" },
+          { "answer": "7" }
+        ]
+      },
+      {
+        "question": "How many games have I worked on that are mentioned?",
+        "answerOptions": [
+          { "answer": "4" },
+          { "answer": "7" },
+          { "answer": "6" },
+          { "answer": "8", "isCorrect": true  }
+        ]
+      },
+      {
+        "question": "How many seperate React Apps have I made?",
+        "answerOptions": [
+          { "answer": "3" },
+          { "answer": "4" },
+          { "answer": "6" },
+          { "answer": "5", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "How many College Credits do I have?",
+        "answerOptions": [
+          { "answer": "60-70" },
+          { "answer": "50-80" },
+          { "answer": "50-60" },
+          { "answer": "80-100", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "What is my Slogan?",
+        "answerOptions": [
+          { "answer": "Just do it!" },
+          { "answer": "Have it your Way!" },
+          { "answer": "Gamer turned Programmer", "isCorrect": true },
+          { "answer": "None of the above" }
+        ]
+      }
+  ]
+  
