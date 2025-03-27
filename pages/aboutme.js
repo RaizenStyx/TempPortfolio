@@ -17,7 +17,7 @@ import Link from 'next/link';
 
 const AboutMe = () => {
   const [search, setSearch] = useState("");
-  const [photos, setPhotos] = useState(items);
+  //const [photos, setPhotos] = useState(items);
   const [isShown, setIsShown] = useState(false);
   const [btnText, setBtnText] = useState("Do you like Space?")
   const toggle = () => {
