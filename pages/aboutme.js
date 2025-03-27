@@ -42,8 +42,8 @@ const AboutMe = ({ items }) => {
       <Technologies />
 
       </Layout>
-
-      <NasaImageContainer id="space">
+<div id = "space"></div>
+      {/* <NasaImageContainer id="space">
       <SecondaryBtn 
         onClick={toggle}
         onMouseEnter={() => !isShown ? setBtnText("Yes!") : setBtnText('No ')}
@@ -95,7 +95,7 @@ const AboutMe = ({ items }) => {
             }
       }>
         Find
-      </NasaButton>}
+      </NasaButton>} */}
     </>
   );
 };
@@ -103,11 +103,11 @@ const AboutMe = ({ items }) => {
 export default AboutMe;
 
 
-export async function getStaticProps() {
-  const results = await fetch("https://images-api.nasa.gov/search?media_type=image&keywords=SMACS-0723-73,HCG-92,NGC-3132,Triangulum-Galaxy");
-  const preview = await results.json();
-  const items = await preview.collection.items;
-  return {
-    props: { items },
-  }
-}
+// export async function getStaticProps() {
+//   const results = await fetch("https://images-api.nasa.gov/search?media_type=image&keywords=SMACS-0723-73,HCG-92,NGC-3132,Triangulum-Galaxy");
+//   const preview = await results.json();
+//   const items = await preview.collection.items;
+//   return {
+//     props: { items },
+//   }
+// }
