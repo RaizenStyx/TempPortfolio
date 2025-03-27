@@ -12,7 +12,10 @@ import ImagePreview from '../components/NASA/ImagePreview';
 import { Fade, SearchInput, ImageGridContainer, NasaButton, NasaImageContainer } from '../components/NASA/ImageStyles';
 import { ResumeDivider } from '../components/Resume/ResumeStyles';
 import Link from 'next/link';
-const AboutMe = ({ items }) => {
+
+// Removed items prop for now
+
+const AboutMe = () => {
   const [search, setSearch] = useState("");
   const [photos, setPhotos] = useState(items);
   const [isShown, setIsShown] = useState(false);
