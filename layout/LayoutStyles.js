@@ -8,8 +8,14 @@ margin: auto;
 `;
 
 export const Container2 = styled.div`
-max-width: 1000px;
-width: 75%;
+
+width: 100%;
 margin: auto;
+padding: 1rem 0;
+
+ @media ${props => props.theme.breakpoints.md}{
+   padding: 10rem 0;
+   width: 75%;
+  }
 
 `;

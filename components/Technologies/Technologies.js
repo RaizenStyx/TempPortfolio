@@ -18,9 +18,7 @@ export default function Technologies() {
 
     <SectionTitle id="tech-1">Full-Stack Technologies</SectionTitle>
     <SectionText2>
-      With this portfolio being my first lanuched project, it only grew my love for all things web development.  
-      It is a combination of JavaScript I have learned on my own on top of what I learned through college. 
-      I turned to shopify in the summer of 2022 to extend my skills. Below is some of the thing I feel confident in and what I am familiar with other than E-Commerce. 
+    Skilled in developing and maintaining both front-end and back-end systems, with experience in server-side development. Other than Shopify, I specialize in building scalable, responsive applications using modern frameworks and databases.
     </SectionText2>
     <List>
 
@@ -31,8 +29,7 @@ export default function Technologies() {
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-          Experienced with HTML, CSS, JavaScript, React, Next.js, Vue, and Angular.
-          My portfolio is built with Next.js and is my biggest project yet.
+          Proficient in HTML, CSS, JavaScript, React, Next.js, Vue, and Angular. My portfolio, built with Next.js, is my most comprehensive project to date.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,7 +41,7 @@ export default function Technologies() {
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-          Experienced with MySQL, Firebase, and MongoDB. I have created and modified databases that use Server-Side languages.
+          Experienced with MySQL, Firebase, and MongoDB. I have designed and managed databases that support dynamic, server-driven applications.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -56,7 +53,7 @@ export default function Technologies() {
         <ListContainer>
           <ListTitle>Server-Side</ListTitle>
           <ListParagraph>
-          Experienced with PHP and Node. Along with the databases, I have created CRUD applications along with using Auth tokens.
+          Skilled in PHP and Node.js, with experience in developing CRUD applications, implementing authentication tokens, and managing server logic.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -64,7 +61,7 @@ export default function Technologies() {
 
       <SectionTitle>Unreal Technologies</SectionTitle>
       <SectionText2>
-        Below are some things I am currently learning and improving on. They are in order from what I feel the best about to what I feel the least comfortable doing.
+      A diverse skill set that extends beyond game development, incorporating industry-standard tools for 3D modeling, animation, and digital content creation.
       </SectionText2>
 
       <List>
@@ -76,7 +73,7 @@ export default function Technologies() {
         <ListContainer>
           <ListTitle>Adobe Suite</ListTitle>
           <ListParagraph>
-          Familiar with using Git for version control. I use it every day for personal use, but I don't do pulls, merges, or branching at all. That is where my inexperience lies, but I have learned how to use this tool myself and still improving.
+          Experienced with Photoshop, Illustrator, and Premiere Pro for graphic design, video editing, and digital content creation.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -88,7 +85,7 @@ export default function Technologies() {
         <ListContainer>
           <ListTitle>Unreal Engine</ListTitle>
           <ListParagraph>
-          Familiar using HTML5 Canvas for making simple video games. I have been following Chris DeLeon's HomeTeamGameDev program since the summer of 2021. Through his course, I have been working on making my own simple video game.
+          Skilled in Blueprints scripting and AI development, with hands-on experience creating gameplay mechanics and environment interactions. Additionally, I have modified Unreal Engine’s C++ code for gameplay logic, as demonstrated in my Bulls and Cows game.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -98,9 +95,9 @@ export default function Technologies() {
           <SiAutodesk size="5rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Autodesk 3DS max</ListTitle>
+          <ListTitle>Autodesk 3DS Max</ListTitle>
           <ListParagraph>
-          Familiar with using C++ and unreal engine. I came across a great deal on a course that introduced people to the topics. Currently working my way through it, learning the syntax for C++ and learning what all goes into game development. 
+          Proficient in polygonal modeling, texturing, and animation, with experience creating detailed 3D assets for games and presentations.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -108,9 +105,7 @@ export default function Technologies() {
 
       <SectionTitle id="tech-2">Other Technologies</SectionTitle>
       <SectionText2>
-      With this portfolio being my first lanuched project, it only grew my love for all things web development.  
-      It is a combination of JavaScript I have learned on my own on top of what I learned through college. 
-      I turned to Shopify in the summer of 2022 to extend my skills. Below is some of the thing I feel confident in and what I am familiar with other than E-Commerce. 
+      A broad range of programming and development skills, covering multiple languages and tools used in software and game development.
       </SectionText2>
     
       <List>
@@ -121,7 +116,7 @@ export default function Technologies() {
         <ListContainer>
           <ListTitle>Java</ListTitle>
           <ListParagraph>
-          Experienced with Java and using objects. I have mainly been limited to the console but I am a great problem solver and enjoy using Java more than most other languages.
+          Strong object-oriented programming skills with Java, primarily in console applications. Problem-solving is a strength, and I enjoy working with Java more than most other languages.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -134,7 +129,7 @@ export default function Technologies() {
         <ListContainer>
           <ListTitle>Python</ListTitle>
           <ListParagraph>
-          Experienced with Python. While using an MVC model, I realized how much more Python has to offer and the versatility of this language. Looking forward to using this language more.
+          Experienced in Python with an appreciation for its versatility. Exposure to MVC architecture has expanded my understanding of Python’s potential, and I look forward to using it more.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -146,7 +141,7 @@ export default function Technologies() {
         <ListContainer>
           <ListTitle>C#</ListTitle>
           <ListParagraph>
-          Experienced with C# for mobile app development. Created a weather app that uses 3 different API's for pulling weather data and SQLite to store locations inside a database.
+          Developed mobile applications using C#. Created a weather app that integrates three different APIs for live weather data and utilizes SQLite for data storage.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -158,19 +153,19 @@ export default function Technologies() {
         <ListContainer>
           <ListTitle>C++</ListTitle>
           <ListParagraph>
-          Experienced with using C++ and using objects. I have only worked with the console here as well, but I developed a Farkle dice game that was quite fun and challenging.  
+          Proficient in C++ with a focus on object-oriented programming. Developed a console-based Farkle dice game, which was both a fun and challenging project. 
           </ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-      <picture>
+        <picture>
           <VscGitMerge size="5rem" />
         </picture>
         <ListContainer>
           <ListTitle>Version Control</ListTitle>
           <ListParagraph>
-          Experienced with using Git for version control. I use it every day for personal use and for my previous employer. 
+          Daily user of Git for version control in both personal and professional projects. Comfortable with branching, merging, and managing repositories. 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -182,7 +177,7 @@ export default function Technologies() {
         <ListContainer>
           <ListTitle>HTML Canvas API</ListTitle>
           <ListParagraph>
-          Familiar using HTML5 Canvas for making simple video games that can be played in the browser. Taught by Chris DeLeon's HomeTeamGameDev program.
+          Experienced in using HTML5 Canvas to create browser-based video games. Learned game development fundamentals through Chris DeLeon's HomeTeam GameDev program.
           </ListParagraph>
         </ListContainer>
       </ListItem>

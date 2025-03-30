@@ -9,14 +9,14 @@ import { VscLayersActive, VscProject } from "react-icons/vsc";
 export default function OtherHeader() {
 
   const [middleBtn, setMiddleBtn] = useState(<MdQuiz size="3rem" />);
-  const [middleLink, setMiddleLink] = useState("#quiz");
+  const [middleLink, setMiddleLink] = useState("#resume");
   const toggle = () => {
-    if(middleLink === "#quiz"){
+    if(middleLink === "#resume"){
       setMiddleBtn(<RiFileDownloadFill size="3rem" />);
-      setMiddleLink("#resume");
+      setMiddleLink("#quiz");
     } else {
       setMiddleBtn(<MdQuiz size="3rem" />);
-      setMiddleLink("#quiz");
+      setMiddleLink("#resume");
     }
   }
 
@@ -34,14 +34,6 @@ export default function OtherHeader() {
             </NavLink>
             </li>
           </button>
-  
-          <button data-tooltip="Jump to All Projects">
-          <li>
-            <NavLink style={{padding: '20px 50px 20px 50px'}} href="#projects">
-              <VscProject size="3rem" />
-            </NavLink>
-          </li>
-          </button>
 
           <button data-tooltip="Jump to React Projects">
           <li>
@@ -52,18 +44,18 @@ export default function OtherHeader() {
           </li> 
           </button>
 
-          <button data-tooltip="Jump to Top/Bottom">
-          <li>
-            <NavLink style={{padding: '20px 50px 20px 50px'}} onClick={toggle} href={middleLink}>
-              {middleBtn}
-            </NavLink>
-          </li> 
-          </button>
-
           <button data-tooltip="Jump to OOP Projects">
           <li>
             <NavLink style={{padding: '20px 50px 20px 50px'}} href="#compiler">    
               <VscLayersActive  size="3rem" />
+            </NavLink>
+          </li> 
+          </button>
+
+          <button data-tooltip="Jump to Top/Bottom">
+          <li>
+            <NavLink style={{padding: '20px 50px 20px 50px'}} href={middleLink} onClick={toggle} >
+              {middleBtn}
             </NavLink>
           </li> 
           </button>
@@ -74,6 +66,14 @@ export default function OtherHeader() {
               <FaPlay size="3rem" />
             </NavLink>
           </li> 
+          </button>
+
+          <button data-tooltip="Jump to Older Projects">
+          <li>
+            <NavLink style={{padding: '20px 50px 20px 50px'}} href="#older">
+              <VscProject size="3rem" />
+            </NavLink>
+          </li>
           </button>
 
           <button data-tooltip="Go to About Me Page">

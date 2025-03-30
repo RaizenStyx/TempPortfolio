@@ -9,13 +9,13 @@ import { CgArrowLeftR, CgArrowRightR } from "react-icons/cg";
 export default function ShopHeader() {
 
   const [middleBtn, setMiddleBtn] = useState(<MdProductionQuantityLimits size="3rem" />);
-  const [middleLink, setMiddleLink] = useState("#support");
+  const [middleLink, setMiddleLink] = useState("#hire");
   const toggle = () => {
     if(middleLink === "#hire"){
-      setMiddleBtn(<MdProductionQuantityLimits size="3rem" />)
+      setMiddleBtn(<BiMessageRoundedAdd size="3rem" />)
       setMiddleLink("#support")
     } else {
-      setMiddleBtn(<BiMessageRoundedAdd size="3rem" />);
+      setMiddleBtn(<MdProductionQuantityLimits size="3rem" />);
       setMiddleLink("#hire");
     }
   }

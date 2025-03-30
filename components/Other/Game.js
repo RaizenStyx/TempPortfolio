@@ -1,4 +1,4 @@
-import { Section, SectionText2, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionText2, SectionTitle, SectionDivider } from '../../styles/GlobalComponents';
 import React from 'react';
 import { ExternalLinks, BlogCard, CardInfo, GridContainer, HeaderThree, Hr, TitleContent, UtilityList, Img } from '../../components/Projects/ProjectsStyles';
 import { games, unrealGames } from '../../constants/constants';
@@ -35,7 +35,8 @@ const Game = () => {
         })}
           </GridContainer>
 
-        <Section nopadding id = "older" style={{alignItems: 'center'}}>
+        <Section nopadding style={{alignItems: 'center'}}>
+        <SectionDivider divider />
         <SectionTitle main>Canvas/Browser Games</SectionTitle>
           <SectionText2>
             These are the games I have made that are avilable to play on Desktop. The first five are examples from Chris DeLeon's courses. with the last one being done completely by me. I listened and followed along, while adding my changes as I progressed. Making these changes along the way, and then going back and making other changes to ensure I fully understood the program was an exciting experience. 

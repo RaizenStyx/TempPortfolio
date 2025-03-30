@@ -12,13 +12,13 @@ import { VscCode } from 'react-icons/vsc';
 export default function AboutMeHead() {
 
   const [middleBtn, setMiddleBtn] = useState(<MdApi size="3rem" />);
-  const [middleLink, setMiddleLink] = useState("#space");
+  const [middleLink, setMiddleLink] = useState("#contact");
   const toggle = () => {
     if(middleLink === "#contact"){
-      setMiddleBtn(<MdApi size="3rem" />)
+      setMiddleBtn(<MdOutlineFeedback size="3rem" />)
       setMiddleLink("#space");
     } else {
-      setMiddleBtn(<MdOutlineFeedback size="3rem" />);
+      setMiddleBtn(<MdApi size="3rem" />);
       setMiddleLink("#contact");
     }
   }

@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Simply Basic Games',
-    description: "I am an aspiring game developer as I describe myself as a Gamer Turned Programmer. I started school because I wanted to learn how video games were made. And this is me taking my first steps onto making my own game, even if it may be small. Click the source button to play some!",
+    description: "I am an aspiring game developer as I describe myself as a Gamer Turned Programmer. I started school because I wanted to learn how video games were made. I worked with Unreal Engine and developed 2 games. I have also worked with HTML5's Canvas API and JavaScript to make retro styled games.",
     image: '/images/retro.png',
     tags: ['HTML', 'CSS', 'Javascript', 'Canvas'],
     source: '../#game',
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'Other Types of Projects',
-    description: "Here are all of my other projects that I am able to showcase that have been done throughout my programming career.",
+    description: "Here are all of my other projects that I am able to showcase that have been done throughout my programming career. This is a work in progress section............",
     image: '/images/xaml.png',
     tags: ['PHP', 'HTML', 'CSS'],
     source: '/#older',
@@ -66,6 +66,23 @@ export const reactProjects = [
       image: '/images/5.png',
       source: 'https://github.com/RaizenStyx/MERNTicketApp', 
       id: 3,
+    }
+  ];
+
+  export const olderProjects = [
+    {
+      title: 'Web Dev Portfolio',
+      description: "WIP",
+      image: '/images/snake.png',
+      source: 'https://github.com/stars/RaizenStyx/lists/webdev', 
+      id: 0,
+    },
+    {
+      title: 'Other programming projects',
+      description: "WIP",
+      image: '/images/tennis.png',
+      source: 'https://github.com/stars/RaizenStyx/lists/programming-languages', 
+      id: 1,
     }
   ];
 

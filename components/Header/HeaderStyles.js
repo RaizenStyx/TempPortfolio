@@ -275,7 +275,6 @@ text-align: center;
 color: white;
 border-radius: 50px;
 overflow: hidden;
-z-index: 2;
 &:hover {
     color: #945DD6;
     background-color: #212d45;

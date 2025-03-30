@@ -14,6 +14,7 @@ import { SecondaryBtn } from '../styles/GlobalComponents';
 import QuizComp from '../components/Quiz/QuizComp';
 import ReactHero from "../components/Hero/ReactHero";
 import Projects from '../components/Projects/Projects';
+import OlderProjects from '../components/Projects/OlderProject';
 
 // Maybe find a way to randomize JSON objects for quiz?
 
@@ -55,6 +56,8 @@ export default function Other() {
       <XApp />
       <ResumeDivider />
       <Game />
+      <ResumeDivider />
+      <OlderProjects />
       <ResumeDivider />
     </Layout>
 
