@@ -17,7 +17,7 @@ const Complier = () => {
       Java Monster Generator
       </ExternalLinks>
 
-      <ExternalLinks href= "https://www.jdoodle.com/a/3B6G" target="_blank">
+      <ExternalLinks href= "https://onlinegdb.com/TeCj9JC45" target="_blank">
       C++ Farkle Dice Game
       </ExternalLinks>
       

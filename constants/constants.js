@@ -1,7 +1,7 @@
 export const projects = [ 
   {
     title: 'React Projects',
-    description: "After version 1 of my portfolio, I went through some of my own self learning projects using React because I found it to be a great tool. It has helped open my eyes to some of the stuff out there that can be used to make web apps.",
+    description: "After completing the first version of my portfolio, I explored self-learning projects in React and discovered its potential for building web apps. This experience broadened my understanding of modern development tools and techniques.",
     image: '/images/react.jpg',
     tags: ['React', 'Material UI', 'React Router', 'MongoDB'],
     source: '../#react',
@@ -11,28 +11,28 @@ export const projects = [
   {
     title: 'OOP Programs',
     description:"My largest projects in terms of files. I created a Random Monster Generator in Java and a Farkle dice game in C++. Both are console-based but demonstrate my understanding of the OOP paradigm.",
-    image: '/images/java.png',
-    tags: ['Java', 'C++', 'OOP'],
+    image: '/images/oop.png',
+    tags: ['Java', 'C++', 'C#', 'OOP'],
     source: '../#compiler',
-    visit: 'https://github.com/RaizenStyx/Java/tree/main/src/cs2',
+    visit: 'https://github.com/stars/RaizenStyx/lists/OOP',
     id: 1,
   },
   {
     title: 'Simply Basic Games',
     description: "I am an aspiring game developer as I describe myself as a Gamer Turned Programmer. I started school because I wanted to learn how video games were made. I worked with Unreal Engine and developed 2 games. I have also worked with HTML5's Canvas API and JavaScript to make retro styled games.",
     image: '/images/retro.png',
-    tags: ['HTML', 'CSS', 'Javascript', 'Canvas'],
+    tags: ['HTML', 'CSS', 'Javascript', 'Canvas', 'Unreal Engine'],
     source: '../#game',
-    visit: 'https://github.com/RaizenStyx/GameDevPortfolio',
+    visit: 'https://github.com/stars/RaizenStyx/lists/AllGames',
     id: 2,
   },
   {
     title: 'Other Types of Projects',
-    description: "Here are all of my other projects that I am able to showcase that have been done throughout my programming career. This is a work in progress section............",
-    image: '/images/xaml.png',
-    tags: ['PHP', 'HTML', 'CSS'],
+    description: "This section showcases a collection of my past projects from various stages of my programming journey. It includes web development and software projects that highlight my experience with different technologies. As I continue to grow, this section will be updated with more work.",
+    image: '/images/project.png',
+    tags: ['PHP', 'HTML', 'CSS', 'Java', 'Python', 'C++'],
     source: '/#older',
-    visit: 'https://github.com/RaizenStyx/CSharpApps',
+    visit: 'https://github.com/stars/RaizenStyx/lists/OlderProjects',
     id: 3,
   }
   
@@ -41,29 +41,29 @@ export const projects = [
 export const reactProjects = [
     {
       title: 'React Form App',
-      description: "react form app desc",
-      image: '/images/snake.png',
+      description: "A basic React form demonstrating controlled components, state management, and form validation. This project helped solidify my understanding of handling user input efficiently in React.",
+      image: '/images/ReactForm.png',
       source: 'https://csb-wrrsj1.vercel.app/', 
       id: 0,
     },
     {
       title: 'UpWork Clone App',
-      description: "Upwork clone react app",
-      image: '/images/tennis.png',
+      description: "A simplified clone of Upwork that showcases UI design and state management in React. Features include a job listing interface and user interactions, focusing on component structure and responsiveness.",
+      image: '/images/UpWorkClone.png',
       source: 'https://up-work-clone.vercel.app/', 
       id: 1,
     },
     {
       title: 'Crypto Tracker',
-      description: "Crypto react app DOES NOT WORK NEED TO FIX",
+      description: "A real-time cryptocurrency tracking app that fetches and displays market data using APIs. Built with React and state management techniques, this project highlights dynamic data handling and API integration.",
       image: '/images/block.png',
       source: 'https://csb-ez43x2.vercel.app/', 
       id: 2,
     },
     {
       title: 'MERN Stack App',
-      description: "MERN stack CRUD App, only code. ",
-      image: '/images/5.png',
+      description: "A full-stack MERN (MongoDB, Express, React, Node.js) application demonstrating CRUD functionality and authentication. Though it is not currently hosted, this project showcases my ability to build and structure full-stack applications.",
+      image: '/images/MERN.jpg',
       source: 'https://github.com/RaizenStyx/MERNTicketApp', 
       id: 3,
     }
@@ -71,16 +71,18 @@ export const reactProjects = [
 
   export const olderProjects = [
     {
-      title: 'Web Dev Portfolio',
-      description: "WIP",
-      image: '/images/snake.png',
+      title: 'Web Dev Projects',
+      description: "A collection of older projects built with HTML, CSS, JavaScript, and PHP, showcasing foundational web development skills. These projects range from static sites to dynamic applications and are available for review on my GitHub.",
+      image: '/images/web.jpg',
+      tags: ['PHP', 'HTML', 'CSS', 'JavaScript'],
       source: 'https://github.com/stars/RaizenStyx/lists/webdev', 
       id: 0,
     },
     {
-      title: 'Other programming projects',
-      description: "WIP",
-      image: '/images/tennis.png',
+      title: 'Other Programming Projects',
+      description: "A set of Java, Python, and C++ projects demonstrating my experience with object-oriented programming, problem-solving, and algorithm development. These console-based applications highlight my early programming work and are accessible on my GitHub.",
+      image: '/images/otherprogramming.png',
+      tags: ['PHP', 'HTML', 'CSS'],
       source: 'https://github.com/stars/RaizenStyx/lists/programming-languages', 
       id: 1,
     }
@@ -133,11 +135,11 @@ export const clientStores = [
   },
   {
     title: '100s of merchants via We Are Underground',
-    description: "This private client wanted a complete redesign of their store, including a customized Shopify storefront to improve user experience, showcase brand identity, and drive customer engagement. Delivered front-end enhancements using JavaScript and Liquid, focusing on both aesthetics and functionality.",
+    description: "Collaborated with numerous merchants through We Are Underground, implementing custom Shopify solutions to enhance storefront design, usability, and performance. Provided front-end modifications using JavaScript and Liquid, ensuring seamless theme customization and improved customer experiences.",
     image: '/images/me.png',
     tags: ['Shopify', 'Liquid', 'HTML/CSS', 'JavaScript'],
     source: "#",
-    id: 0
+    id: 1
   }
 ]
 
@@ -172,7 +174,7 @@ export const games = [
     id: 3,
   },
   {
-    title: 'Get To The Grail',
+    title: 'Get to the Grail',
     description: "This a very simple dungeon game where you have to gather all of the keys to make it to the end. The doors do not open unless you have a key. I followed the lesson precisely as it was starting to confuse me, so this version is just like Chris's version. I plan to join Chris' program at home team gamedev eventually.",
     image: '/images/10.png',
     source: '/KeyAndDug/keyanddug.html', 
@@ -191,15 +193,15 @@ export const unrealGames = [
   {
     title: 'Arena Shooter',
     description: "After I finished making a simplistic Flappy Bird Emulator, I came across a youtube video of Chris DeLeon. It was a fast paced demonstration of him coding this. I followed on best I could and when I finished this I felt more accomplished than ever.",
-    image: '/images/snake.png',
-    source: '../Snake/snake.html', 
+    image: '/images/UnrealArena.png',
+    source: 'https://github.com/RaizenStyx/ArenaShooterUnreal', 
     id: 0,
   },
   {
     title: 'Bulls & Cows',
     description: "After a night of playing snake, I followed Chris's link to his free Udemy course and did this Tennis game the next day. It was a lot of fun putting something like this together with his help. He explained everything well and made it easy to follow along.",
-    image: '/images/tennis.png',
-    source: '/Tennis/tennis.html', 
+    image: '/images/bullandcow.png',
+    source: 'https://github.com/RaizenStyx/UnrealWithCPP', 
     id: 1,
   }
 ];

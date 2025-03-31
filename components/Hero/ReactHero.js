@@ -13,7 +13,7 @@ export default function ReactHero() {
     <SectionDivider />  
       <SectionTitle main>React Projects</SectionTitle>
       <SectionText2>
-        Started using React when building this Portfolio. Once the first iteration was done, I went back and taught myself the basics. Here are the apps I have developed in that process. After these apps, I went back to focusing on my Portfolio to polish it up.
+      I started using React while building this portfolio. Once the first iteration was complete, I went back to learn the fundamentals properly. Along the way, I developed several React applications to strengthen my skills. Three of these projects are hosted on Vercel for live previews, while the fourth, a MERN app, was built successfully but is no longer hosted due to low database traffic. After completing these apps, I returned to refining my portfolio to further improve its design and functionality.
         </SectionText2>
       </Section>
 
