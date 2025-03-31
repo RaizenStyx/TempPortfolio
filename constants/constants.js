@@ -49,7 +49,7 @@ export const reactProjects = [
     {
       title: 'UpWork Clone App',
       description: "A simplified clone of Upwork that showcases UI design and state management in React. Features include a job listing interface and user interactions, focusing on component structure and responsiveness.",
-      image: '/images/UpWorkClone.png',
+      image: '/images/UpworkClone.png',
       source: 'https://up-work-clone.vercel.app/', 
       id: 1,
     },
