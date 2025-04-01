@@ -92,7 +92,7 @@ export const shop = [
   {
     title: 'Two Clothes',
     description: "Demo store I created to showcase my skills with creating a store with many products. This store showcases some possibilities of a home page, with a dynamic picture that can load different products to view. On the pages that shows many products, it has a dynamic filter option that will make it easier for customers to find what they need.",
-    image: '/images/clotheslogo.png',
+    image: '/images/logo1.png',
     tags: ['Shopify', 'Dynamic Theme'],
     source: "https://www.loom.com/share/2b22aa048b2748a0836ff1b1b81e2eae",
     id: 0,
@@ -128,7 +128,7 @@ export const clientStores = [
   {
     title: 'Private client via Freelance',
     description: "This private client wanted a complete redesign of their store, including a customized Shopify storefront to improve user experience, showcase brand identity, and drive customer engagement. Delivered front-end enhancements using JavaScript and Liquid, focusing on both aesthetics and functionality.",
-    image: '/images/me.png',
+    image: '/images/freelancer.png',
     tags: ['Shopify', 'Theme Customization', 'Page Creation', 'JavaScript'],
     source: "#",
     id: 0
@@ -136,7 +136,7 @@ export const clientStores = [
   {
     title: '100s of merchants via We Are Underground',
     description: "Collaborated with numerous merchants through We Are Underground, implementing custom Shopify solutions to enhance storefront design, usability, and performance. Provided front-end modifications using JavaScript and Liquid, ensuring seamless theme customization and improved customer experiences.",
-    image: '/images/me.png',
+    image: '/images/wau.png',
     tags: ['Shopify', 'Liquid', 'HTML/CSS', 'JavaScript'],
     source: "#",
     id: 1
