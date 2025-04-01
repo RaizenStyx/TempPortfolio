@@ -56,7 +56,7 @@ export const reactProjects = [
     {
       title: 'Crypto Tracker',
       description: "A real-time cryptocurrency tracking app that fetches and displays market data using APIs. Built with React and state management techniques, this project highlights dynamic data handling and API integration.",
-      image: '/images/block.png',
+      image: '/images/tracker.png',
       source: 'https://csb-ez43x2.vercel.app/', 
       id: 2,
     },
