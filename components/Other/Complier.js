@@ -1,14 +1,12 @@
 import { Section } from "../../styles/GlobalComponents";
 import { ExternalLinks, GridContainer } from "../Projects/ProjectsStyles";
 import ComHero from "../Hero/ComHero";
-import { SectionDivider } from "../../styles/GlobalComponents";
 
 const Complier = () => {
 
   return (
     
     <Section id = "compiler" >
-      
       
       <ComHero />
 

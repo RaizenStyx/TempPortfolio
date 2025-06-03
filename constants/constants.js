@@ -61,11 +61,18 @@ export const reactProjects = [
       id: 2,
     },
     {
+      title: 'Science News Summarizer',
+      description: "A sleek, multi-page React + TypeScript web app that fetches the latest science, tech, and space news, allowing users to generate AI-powered summaries, take notes, and export their saved insights. Features include a dark tech UI, local data persistence, Hugging Face integration, and soon, infinite scrolling and page animations.",
+      image: '/images/ai.png',
+      source: 'https://science-news-summarizer.vercel.app/', 
+      id: 3,
+    },
+    {
       title: 'MERN Stack App',
       description: "A full-stack MERN (MongoDB, Express, React, Node.js) application demonstrating CRUD functionality and authentication. Though it is not currently hosted, this project showcases my ability to build and structure full-stack applications.",
       image: '/images/MERN.jpg',
       source: 'https://github.com/RaizenStyx/MERNTicketApp', 
-      id: 3,
+      id: 4,
     }
   ];
 

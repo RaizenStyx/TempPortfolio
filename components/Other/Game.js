@@ -1,5 +1,4 @@
 import { Section, SectionText2, SectionTitle, SectionDivider } from '../../styles/GlobalComponents';
-import React from 'react';
 import { ExternalLinks, BlogCard, CardInfo, GridContainer, HeaderThree, Hr, TitleContent, UtilityList, Img } from '../../components/Projects/ProjectsStyles';
 import { games, unrealGames } from '../../constants/constants';
 
