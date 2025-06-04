@@ -68,11 +68,18 @@ export const reactProjects = [
       id: 3,
     },
     {
+      title: 'TypeScript Task Manager',
+      description: "A TypeScript-based task manager app that allows users to create, edit, and delete tasks. This project demonstrates my ability to work with TypeScript in a React environment, enhancing type safety and code maintainability.",
+      image: '/images/taskmanager.png',
+      source: 'https://react-task-manager-red.vercel.app/', 
+      id: 4,
+    },
+    {
       title: 'MERN Stack App',
       description: "A full-stack MERN (MongoDB, Express, React, Node.js) application demonstrating CRUD functionality and authentication. Though it is not currently hosted, this project showcases my ability to build and structure full-stack applications.",
       image: '/images/MERN.jpg',
       source: 'https://github.com/RaizenStyx/MERNTicketApp', 
-      id: 4,
+      id: 5,
     }
   ];
 
