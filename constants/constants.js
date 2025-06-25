@@ -75,11 +75,18 @@ export const reactProjects = [
       id: 4,
     },
     {
+      title: 'TypeScript Lore Forge',
+      description: "A TypeScript-based AI prompt app that allows users to create lore for their characters, worlds, and more. Not only does this project demonstrate my ability to with TypeScript, it also shows my ability to work with AI prompts, how to use them effectively, and intergrate them into a React app.",
+      image: '/images/ScreenshotLoreForge.png',
+      source: 'https://lore-generator-zeta.vercel.app/', 
+      id: 5,
+    },
+    {
       title: 'MERN Stack App',
       description: "A full-stack MERN (MongoDB, Express, React, Node.js) application demonstrating CRUD functionality and authentication. Though it is not currently hosted, this project showcases my ability to build and structure full-stack applications.",
       image: '/images/MERN.jpg',
       source: 'https://github.com/RaizenStyx/MERNTicketApp', 
-      id: 5,
+      id: 6,
     }
   ];
 
