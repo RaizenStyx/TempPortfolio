@@ -68,17 +68,17 @@ export const reactProjects = [
       id: 3,
     },
     {
-      title: 'TypeScript Task Manager',
-      description: "A TypeScript-based task manager app that allows users to create, edit, and delete tasks. This project demonstrates my ability to work with TypeScript in a React environment, enhancing type safety and code maintainability.",
-      image: '/images/taskmanager.png',
-      source: 'https://react-task-manager-red.vercel.app/', 
-      id: 4,
-    },
-    {
       title: 'TypeScript Lore Forge',
       description: "A TypeScript-based AI prompt app that allows users to create lore for their characters, worlds, and more. Not only does this project demonstrate my ability to with TypeScript, it also shows my ability to work with AI prompts, how to use them effectively, and intergrate them into a React app.",
       image: '/images/ScreenshotLoreForge.png',
       source: 'https://lore-generator-zeta.vercel.app/', 
+      id: 4,
+    },
+    {
+      title: 'TypeScript Task Manager',
+      description: "A TypeScript-based task manager app that allows users to create, edit, and delete tasks. This project demonstrates my ability to work with TypeScript in a React environment, enhancing type safety and code maintainability.",
+      image: '/images/taskmanager.png',
+      source: 'https://react-task-manager-red.vercel.app/', 
       id: 5,
     },
     {
@@ -211,19 +211,26 @@ export const games = [
 ];
 
 export const unrealGames = [
+    {
+    title: 'Rapid Platformer Project: Prince of Daggers',
+    description: "This is a platformer game I made in Unreal Engine 5. It is a simple game where you have to get to the end of the level and defeat the boss. It was a lot of fun to make and I learned a lot about Unreal Engine 5 while making it. I added an extra challenge, using a spline and line tracing, I added a copy-cat wall-run type of feature that was inspired by Prince of Persia.",
+    image: '/images/platformer.png',
+    source: 'https://github.com/RaizenStyx/PlatformerGameProject', 
+    id: 0,
+  },
   {
     title: 'Arena Shooter',
     description: "After I finished making a simplistic Flappy Bird Emulator, I came across a youtube video of Chris DeLeon. It was a fast paced demonstration of him coding this. I followed on best I could and when I finished this I felt more accomplished than ever.",
     image: '/images/UnrealArena.png',
     source: 'https://github.com/RaizenStyx/ArenaShooterUnreal', 
-    id: 0,
+    id: 1,
   },
   {
     title: 'Bulls & Cows',
     description: "After a night of playing snake, I followed Chris's link to his free Udemy course and did this Tennis game the next day. It was a lot of fun putting something like this together with his help. He explained everything well and made it easy to follow along.",
     image: '/images/bullandcow.png',
     source: 'https://github.com/RaizenStyx/UnrealWithCPP', 
-    id: 1,
+    id: 2,
   }
 ];
 
